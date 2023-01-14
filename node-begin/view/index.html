@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-      function routeOnClick() {
+      function routeAboutOnClick() {
         window.location.href = "/about";
+      }
+
+      function routeContactOnClick() {
+        window.location.href = "/contact";
+      }
+
+      function routeLandingOnClick() {
+        window.location.href = "/landing";
       }
     </script>
   </head>
   <body>
     <h1>Hello...</h1>
-    <button onclick="routeOnClick()">Click</button>
+    <button onclick="routeAboutOnClick()">Go About Page</button>
+    <button onclick="routeContactOnClick()">Go Contact Page</button>
+    <button onclick="routeLandingOnClick()">Go Landing Page</button>
   </body>
 </html>
