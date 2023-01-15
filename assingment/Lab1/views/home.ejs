@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css" />
+    <script>
+      function routePostOnClick() {
+        window.location.href = "/post";
+      }
+
+      function routeReadOnClick() {
+        window.location.href = "/read";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Your home page will greet visitors and provide links to the other pages.  -->
+    <h1>We are excellent guest house!!</h1>
+
+    <button onclick="routePostOnClick()">Go Post Page</button>
+    <button onclick="routeReadOnClick()">Go Read Page</button>
+  </body>
+</html>

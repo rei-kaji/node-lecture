@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css" />
+    <script>
+      function routePostOnClick() {
+        window.location.href = "/post";
+      }
+
+      function routeHomeOnClick() {
+        window.location.href = "/";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Your “read notes left by others” page will display the notes left before in a list.
+ -->
+    <h1>Our guests impressiones!!</h1>
+    <!-- <ul>
+      <% for(let guestbook of guestBooks) { %>
+      <li>
+        <h3><%= guestbook.title %></h3>
+        <p><%= guestbook.impression %></p>
+        <h5><%= guestbook.author %></h5>
+      </li>
+      <% } %>
+    </ul> -->
+
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Impression</th>
+        <th>Author</th>
+      </tr>
+      <% for(let guestbook of guestBooks) { %>
+      <tr>
+        <td><%= guestbook.date %></td>
+        <td><%= guestbook.impression %></td>
+        <td><%= guestbook.author %></td>
+      </tr>
+      <% } %>
+    </table>
+
+    <button onclick="routeHomeOnClick()">Go Home Page</button>
+    <button onclick="routePostOnClick()">Go Post Page</button>
+  </body>
+</html>

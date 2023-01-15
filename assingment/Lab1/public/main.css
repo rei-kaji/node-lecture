@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 40rem;
+}
+
+table tr th {
+  border: solid 1px rgb(9, 8, 8);
+  background-color: lightsalmon;
+}
+
+table tr td {
+  border: solid 1px rgb(9, 8, 8);
+}
+
+#post_form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.form_label {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.form_input {
+  height: 2rem;
+}
+
+.form_submit {
+  margin-top: 2rem;
+}
