@@ -1,0 +1,15 @@
+{
+  "name": "express-recipes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "coctail recipes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "prod": "",
+    "start": ""
+  },
+  "author": "rei-kaji",
+  "license": "ISC"
+}
