@@ -49,7 +49,7 @@ const guestBooks = [
   },
 ];
 
-app.post("/posted", (req, res) => {
+app.post("/read", (req, res) => {
   const { date, impression, author } = req.body;
 
   const newGuestBook = {
